@@ -1,80 +1,81 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  font: 300 16px/22px "helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    font: 300 16px/22px "helvetica", "Gill Sans", sans-serif;
 }
 
-body > h1 { 
-  color: black; 
-  text-align: center;
- }
+body > h1 {
+    color: #000;
+    text-align: center;
+}
 
- .row {
-  margin: auto 1.5%
-  width 100%;
- }
+.row {
+    margin: auto 1.5%;
+}
 
- .item {
-  border: 2px solid black;
-  margin: 1.5%;
- }
+.item {
+    border: 2px solid #000;
+    margin: 1.5%;
+}
 
- /* ----- Column titles ---- */
+/* ------ Column titles ------ */
+.item > h1 {
+    text-align: center;
+    background-color: #DCFCD8;
+    width: 150px;
+    margin: 0;
+    float: right;
+    border: 2px solid #000;
+    position: relative;
+    left: 2px;
+    top: -2px;
+    padding: 1%;
+}
 
- .item > h1 {
-  text-align: center;
-  background-color: #DCFCD8;
-  width: 150px;
-  margin: 0;
-  float: right;
-  border: 2px solid #000;
-  position: relative;
-  left: 2px;
-  top: -2px;
-  padding: 1%;
- }
+.item:nth-child(1) h1{
+    background-color: #5AFCD8;
+    color: #000076;
+}
+.item:nth-child(2) h1{
+    background-color: #8520D8;
+    color: #fff134;
+}
+.item:nth-child(3) h1{
+    background-color: #C62051;
+    color: #fff;
+}
 
- .item:nth-child(1) h1{
-  background-color: #5AFCD8;
-  color: #000076;
- }
- .item:nth-child(2) h1{
-  background-color: #8520D8;
-  color: white;
- }
- .item:nth-child(3) h1{
-  background-color: #C62051;
-  color: black;
- }
- /* ---- Column Background ---- */
- .item:nth-child(1){
-  background-color: #C6E6FC;
- }
- .item:nth-child(2){
-  background-color: #E4FFEA;
- }
-  .item:nth-child(3){
-  background-color: #98D976;
- }
- /* ---- Column Content --- */
+/* ------ Column background ------ */
+.item:nth-child(1){
+    background-color: #C6E6FC;
+}
+.item:nth-child(2){
+    background-color: #E4FFEA;
+}
+.item:nth-child(3){
+    background-color: #98D976;
+}
+
+/* ------ Column content ------ */
 p {
     padding: 10px;
     clear: both;
     font-size: 15px;
-  }
+}
 
- /** Large Devices only **/
-@media  (min-width: 992px) {
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
   .col-lg-4 {
     float: left;
     width: 30%;
   }
-}  
-  
-/** Medium Device only **/
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     float: left;
@@ -84,10 +85,9 @@ p {
     clear: both;
   }
 }
-/** Mobile device only **/
-@media (max-width: 767px) {
+
+@media max-width: 767px {
   .col-sm-12 {
-    float: center;
     width: 100%;
   }
 }
