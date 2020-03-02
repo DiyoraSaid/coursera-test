@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+} 
+head { display: none;
+ }
+h1 { color: black; text-align: center;
+	display: block;
+	font-size: 2em;
+	font: "Helvetica", "Gill Sans", sans-serif; 
+ }
