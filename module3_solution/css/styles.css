@@ -1,0 +1,68 @@
+body {
+   
+    background-color: grey;
+    
+  }
+  #nav-list{
+      background-color: greenyellow;
+  }
+  #header-nav {
+    background-color: #9999ff;
+    border-radius: 0;
+    border: 0;
+  }
+
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+  .navbar-header h1 {
+    color: black;
+    padding-left: 1px;
+  }
+
+.navbar-header button.navbar-toggle {
+    border: 1px solid black;
+    margin-top: 20px;
+
+  }
+  #nav-list a {
+   
+    text-align: center;
+  }
+
+
+/* main */
+* {
+    box-sizing: border-box;
+  }
+    
+    .row{
+        position: absolute;
+      width: 100%;
+      margin: auto;
+  
+    }
+   
+  
+   section {
+      border: 1px solid black;
+      background-color: white;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    p {
+        padding: 10px;
+        clear: both;
+        font-size: 15px;
+    }
+   
+  
