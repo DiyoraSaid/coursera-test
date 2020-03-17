@@ -1,11 +1,14 @@
 body{
-  background-color: white;
+  background-color: #CC2427;
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+  color: #1a1a1a;
+
 }
 #header-nav{
   border-radius: 0;
   border:0;
-  background-color:#9999ff; 
-  color: black;
+  background-color:#B7DDD5;
 }
 .panel{
   border-radius: 0;
@@ -25,9 +28,18 @@ body{
 }
 #nav-list>li{
   border-bottom: 1px solid white;
+  font-weight: bold;
+  color: black;
+  font-size: 1.4em;
 }
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+
+.navbar-brand, .navbar-nav li a {
+  line-height: 100px;
+  height: 100px;
+  padding-top: 0;
+}
+.navbar-default button.navbar-toggle .navbar-toggle .icon-bar {
+    border: 1px solid #ffffff;
 }
 .navbar-nav{
   margin-bottom:0px;
@@ -37,9 +49,25 @@ body{
    font-weight:bold;
   font-size:1.75em;
 }
+h2 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
 h3{
   font-size:1.6em;
   font-weight:bold;
-  padding-top:10px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color: #3d3d3d;
 }
-  
+#chickenpanel {
+  padding: 30px;
+  }
+
+#beefpanel {
+  padding: 30px;
+  }
+
+#sushipanel {
+  padding: 30px;
+  }
